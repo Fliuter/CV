@@ -3,39 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li>
-          <img src="images/Avatar.png" alt="" />
+    <div class="wrapper"> <header>
+      <ul class="profile_list">
+        <li class="avatar">
+          <img src="images/Avatar.png" alt="" class="avatar" />
         </li>
 
-        <li>
+        <li class="profile_name">
           <h1>Иван Петров</h1>
-          <h2>Frontend developer</h2>
+          <p>Frontend developer</p>
         </li>
-        <li>
+        <li class="profile_contacts">
           <h1>Контакты</h1>
-          <h2>+79223344455</h2>
-          <h2>email@yandex.ru</h2>
+          <p>+79223344455</p>
+          <p>email@yandex.ru</h2>
         </li>
       </ul>
     </header>
-    <hr />
+      <hr>
     <main>
       <p>
-        Немного обо мне: это текст-"рыба", часто используемый в печати и
+        <b>Немного обо мне:</b> это текст-"рыба", часто используемый в печати и
         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
         латинице с начала XVI века. В то время некий безымянный печатник создал
         большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для
         распечатки образцов. Lorem Ipsum не только успешно пережил без заметных
         изменений пять веков...
       </p>
-      <table>
+      <table class="iksweb">
         <tbody>
-          <tr>
+          <tr class="profile_list">
             <td>Хобби</td>
             <td>Социальные сети</td>
           </tr>
@@ -104,6 +105,8 @@
             </button>
         </div>
       </div>
-    </main>
+    </main></div>
+   <script src="main.js"></script>
   </body>
+  
 </html>

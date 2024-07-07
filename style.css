@@ -1,0 +1,38 @@
+.avatar{
+    width: 160px;
+    height: 160px;
+}
+.profile_list{
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-items: baseline;
+    list-style-type: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+}
+.profile_name {
+    margin-left: 30px;
+}
+.profile_contacts {
+    margin-left: auto;
+}
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto; }
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #5A9645; }
+table.iksweb td,table.iksweb th {
+	min-height:35px;padding: 3px; 
+	width: 30px;
+	height: 35px; }
+table.iksweb th {
+	background: #5A9645;
+	color: #5A9645;
+	font-weight: normal; }
